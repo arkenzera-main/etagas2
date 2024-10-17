@@ -1,6 +1,6 @@
 /**
  * ServiceWorker
- * @author Bruno Politi Romero
+ * @author Bruno
  */
 
 // Instalação do Service Worker

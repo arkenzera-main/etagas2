@@ -3,6 +3,9 @@
  * @author Professor José de Assis
  * @link https://joseassis.com.br/
  */
+
+// Registrar o ServiceWorker >>>>>>>>>>>>>>>>>>
+// se o ServiceWorker estiver disponível no navegador
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
         .register('/sw.js')
@@ -11,8 +14,7 @@ if ('serviceWorker' in navigator) {
         })
 }
 
-
-
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function calcular() {
     // pegar valores dos inputs
@@ -28,4 +30,3 @@ function calcular() {
     }
 
 }
-
